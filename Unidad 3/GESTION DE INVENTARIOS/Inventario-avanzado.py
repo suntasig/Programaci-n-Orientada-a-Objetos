@@ -7,8 +7,8 @@ class Producto:
         # Inicializa un producto con los atributos: ID, nombre, cantidad y precio.
         self.id = id
         self.nombre = nombre
-        self.cantidad = int(cantidad)
-        self.precio = float(precio)
+        self.cantidad =(cantidad)
+        self.precio = (precio)
 
     def __str__(self):
         return f"{self.id} {self.nombre} {self.cantidad} {self.precio}"
